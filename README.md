@@ -8,6 +8,8 @@
         [btn setTitle:str forState:UIControlStateNormal];
  }];
 ```
+![singlePicker.gif](http://upload-images.jianshu.io/upload_images/1485668-7d36e3306fd063e1.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 2地址选择器调用方法
 ```
 [JWAddressPickerView showWithAddressBlock:^(NSString *province, NSString *city, NSString *area) {
@@ -15,3 +17,4 @@
         [btn setTitle:title forState:UIControlStateNormal];
     }];
 ```
+![addressPicker.gif](http://upload-images.jianshu.io/upload_images/1485668-e03b89049e3e073f.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
