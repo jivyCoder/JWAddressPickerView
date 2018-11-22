@@ -1,4 +1,4 @@
-# PickerView
+# JWPickerView
 封装好的地址选择器 使用类方法调用 方便快捷
 
 1.单数组调用方法,只需传一个数组即可 
@@ -21,4 +21,4 @@
 
 # License
 
-PickerView is released under the MIT license. See [LICENSE](https://github.com/jivyCoder/PickerView/blob/master/LICENSE) for details.
+JWPickerView is released under the MIT license. See [LICENSE](https://github.com/jivyCoder/JWPickerView/blob/master/LICENSE) for details.
