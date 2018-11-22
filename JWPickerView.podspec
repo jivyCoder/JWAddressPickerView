@@ -17,14 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "JWPickerView"
   s.version      = "0.0.1"
-  s.summary      = "封装好的地址选择器 使用类方法调用 方便快捷"
+  s.summary      = "封装好的地址选择器"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = "不引入任何第三方框架,方便快捷"
+  s.description  = "不引入任何第三方框架,使用类方法调用,方便快捷"
 
   s.homepage     = "https://github.com/jivyCoder/JWPickerView"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
