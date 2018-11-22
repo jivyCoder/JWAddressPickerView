@@ -27,7 +27,7 @@
 		7A9F771021A64733004502C8 /* BasePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePickerView.m; sourceTree = "<group>"; };
 		7A9F771121A64733004502C8 /* SinglePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SinglePickerView.h; sourceTree = "<group>"; };
 		7A9F771221A64733004502C8 /* JWAddressPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWAddressPickerView.m; sourceTree = "<group>"; };
-		DA3721B01FCE618900DDF525 /* JWPickerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPickerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3721B01FCE618900DDF525 /* JWAddressPickerViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWAddressPickerViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA3721B31FCE618900DDF525 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA3721B41FCE618900DDF525 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DA3721B61FCE618900DDF525 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A9F770B21A64733004502C8 /* JWPickerView */ = {
+		7A9F770B21A64733004502C8 /* JWAddressPickerView */ = {
 			isa = PBXGroup;
 			children = (
 				7A9F770C21A64733004502C8 /* BasePickerView.h */,
@@ -61,14 +61,14 @@
 				7A9F771121A64733004502C8 /* SinglePickerView.h */,
 				7A9F770D21A64733004502C8 /* SinglePickerView.m */,
 			);
-			path = JWPickerView;
+			path = JWAddressPickerView;
 			sourceTree = "<group>";
 		};
 		DA3721A71FCE618900DDF525 = {
 			isa = PBXGroup;
 			children = (
-				7A9F770B21A64733004502C8 /* JWPickerView */,
-				DA3721B21FCE618900DDF525 /* JWPickerViewExample */,
+				7A9F770B21A64733004502C8 /* JWAddressPickerView */,
+				DA3721B21FCE618900DDF525 /* JWAddressPickerViewExample */,
 				DA3721B11FCE618900DDF525 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,12 +76,12 @@
 		DA3721B11FCE618900DDF525 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA3721B01FCE618900DDF525 /* JWPickerViewExample.app */,
+				DA3721B01FCE618900DDF525 /* JWAddressPickerViewExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA3721B21FCE618900DDF525 /* JWPickerViewExample */ = {
+		DA3721B21FCE618900DDF525 /* JWAddressPickerViewExample */ = {
 			isa = PBXGroup;
 			children = (
 				DA3721B31FCE618900DDF525 /* AppDelegate.h */,
@@ -94,15 +94,15 @@
 				DA3721C11FCE618A00DDF525 /* Info.plist */,
 				DA3721C21FCE618A00DDF525 /* main.m */,
 			);
-			path = JWPickerViewExample;
+			path = JWAddressPickerViewExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA3721AF1FCE618900DDF525 /* JWPickerViewExample */ = {
+		DA3721AF1FCE618900DDF525 /* JWAddressPickerViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA3721C61FCE618A00DDF525 /* Build configuration list for PBXNativeTarget "JWPickerViewExample" */;
+			buildConfigurationList = DA3721C61FCE618A00DDF525 /* Build configuration list for PBXNativeTarget "JWAddressPickerViewExample" */;
 			buildPhases = (
 				DA3721AC1FCE618900DDF525 /* Sources */,
 				DA3721AD1FCE618900DDF525 /* Frameworks */,
@@ -112,9 +112,9 @@
 			);
 			dependencies = (
 			);
-			name = JWPickerViewExample;
+			name = JWAddressPickerViewExample;
 			productName = PickerView;
-			productReference = DA3721B01FCE618900DDF525 /* JWPickerViewExample.app */;
+			productReference = DA3721B01FCE618900DDF525 /* JWAddressPickerViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,7 +132,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA3721AB1FCE618900DDF525 /* Build configuration list for PBXProject "JWPickerViewExample" */;
+			buildConfigurationList = DA3721AB1FCE618900DDF525 /* Build configuration list for PBXProject "JWAddressPickerViewExample" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -145,7 +145,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA3721AF1FCE618900DDF525 /* JWPickerViewExample */,
+				DA3721AF1FCE618900DDF525 /* JWAddressPickerViewExample */,
 			);
 		};
 /* End PBXProject section */
@@ -310,10 +310,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = JWPickerViewExample/Info.plist;
+				INFOPLIST_FILE = JWAddressPickerViewExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jw.JWPickerViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = jw.JWAddressPickerViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -326,10 +326,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = JWPickerViewExample/Info.plist;
+				INFOPLIST_FILE = JWAddressPickerViewExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jw.JWPickerViewExample;
+				PRODUCT_BUNDLE_IDENTIFIER = jw.JWAddressPickerViewExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -339,7 +339,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA3721AB1FCE618900DDF525 /* Build configuration list for PBXProject "JWPickerViewExample" */ = {
+		DA3721AB1FCE618900DDF525 /* Build configuration list for PBXProject "JWAddressPickerViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA3721C41FCE618A00DDF525 /* Debug */,
@@ -348,7 +348,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA3721C61FCE618A00DDF525 /* Build configuration list for PBXNativeTarget "JWPickerViewExample" */ = {
+		DA3721C61FCE618A00DDF525 /* Build configuration list for PBXNativeTarget "JWAddressPickerViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA3721C71FCE618A00DDF525 /* Debug */,
