@@ -9,6 +9,6 @@ s.homepage     = "https://github.com/jivyCoder/JWAddressPickerView"
 s.license      = "MIT"
 s.author       = "jivyCoder"
 s.source       = { :git => "https://github.com/jivyCoder/JWAddressPickerView.git", :tag => "#{s.version}" }
-s.source_files  = "JWAddressPickerView/**/*.{h,m}"
+s.source_files = "JWAddressPickerView/*.{h,m}"
 s.requires_arc = true
 end
