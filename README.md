@@ -19,6 +19,14 @@
 ```
 ![addressPicker.gif](http://upload-images.jianshu.io/upload_images/1485668-e03b89049e3e073f.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+# 安装说明
+
+CocoaPods
+
+在你工程的 Podfile 文件中添加如下一行，并执行 pod install 或 pod update。
+
+pod 'JWAddressPickerView'
+
 # License
 
 JWAddressPickerView is released under the MIT license. See [LICENSE](https://github.com/jivyCoder/JWPickerView/blob/master/LICENSE) for details.
